@@ -1,3 +1,5 @@
-# README FILE
+# README
 
-Backend Complete with MongoDB, Express, and Postman
+Backend complete with MongoDB, Express, and Postman
+
+Frontend set up with Chakra UI, JavaScript, and React
