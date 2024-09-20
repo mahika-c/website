@@ -15,9 +15,9 @@ app.use("/api/products", productRoutes); // set prefix for all route methods
 // console.log(process.env.MONGO_URI);
 
 // prints message to homepage
-// app.get("/", (req, res) => {
-//     res.send("server is ready try again")
-// });
+app.get("/", (req, res) => {
+    res.send("server is ready to go");
+});
 
 app.listen(PORT, () => {
     connectDB();
